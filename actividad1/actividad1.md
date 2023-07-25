@@ -1,24 +1,29 @@
 ![Static Badge](https://img.shields.io/badge/Actividad_%231-green)
 ![Static Badge](https://img.shields.io/badge/SO1_Secci%C3%B3n_N-2S23-blue)
-![Static Badge](https://img.shields.io/badge/Carnet-201908075-yellow)      ![Static Badge](https://img.shields.io/badge/Estudiante-Juan José López Pérez-yellow)
+![Static Badge](https://img.shields.io/badge/Carnet-201908075-yellow)      ![Static Badge](https://img.shields.io/badge/Estudiante-Juan_José_López_Pérez-yellow)
 
 ## **Tipos de Kernel**
 
 Se conoce como kernel a la sección más esencial de un sistema operativo. Consiste en la parte que se ocupa de ingresar a los diversos dispositivos que posee un ordenador.
+
 ![Kernel](https://bligoo.com.ve/wp-content/uploads/2017/08/kernel-2.png "Kernel")
+
 Existen distintos tipos de Kernel de sistemas operativos. Esto debido a la evolución de soluciones a problemas y necesidades que se fueron encontrando a lo largo del desarrollo de hardware y software. A continuación, se mencionan algunos de los más destacados e importantes:
 
 - **Kernel Monolítico**
+
 	Este tipo de kernel se encarga de implementar funciones fundamentales como el manejo de archivos, redes, memoria, controladores y otros recursos, otorgando al sistema operativo una estructura única en la que todos los recursos son accesibles y están asociados en el espacio del kernel. Un ejemplo de esta clase de kernels es el caso de DOS. A pesar de sus limitaciones en la gestión de recursos, todavía posee funcionalidades fundamentales como la programación del CPU, llamadas de sistema y otras características esenciales. Todos los controladores que acceden directamente al hardware están integrados en el kernel, lo que les permite comunicarse directamente entre sí.
 
 	Además, tiene la capacidad de cargar módulos dinámicamente, evitando así la necesidad de incluirlos en la imagen del sistema operativo en sí. Sin embargo, una gran desventaja de este tipo de kernels es que todos los procesos se encuentran en "un solo bloque". Esto significa que si un servicio o controlador falla, puede provocar que el kernel también falle y entre en modo pánico.
 
 - **Microkernel**
+
 	También conocidos como micronúcleos, este tipo de kernel se asemeja al enfoque monolítico con una diferencia fundamental: ciertos servicios, como la compartición de archivos, el scheduling y otros servicios del kernel, se ejecutan en un espacio separado del kernel principal. Cada servicio tiene su propia dirección, lo que resulta en una notable reducción del tamaño tanto del kernel como del sistema operativo en general. La división del kernel en módulos más pequeños y con propósitos específicos contribuye a la fiabilidad y estabilidad del sistema. Además, este kernel facilita la comunicación entre programas del cliente y los servicios que se ejecutan en el espacio de usuario.
 
 	Una característica destacable es que cualquier servicio nuevo se ejecuta en el espacio de usuario, lo que evita la necesidad de modificar el kernel. En comparación con el kernel monolítico, si un servicio experimenta un fallo, el kernel permanece intacto, lo que resulta en una recuperación de errores mucho más efectiva. Sin embargo, el hardware es más abstracto a través de controladores y los procesos no pueden obtener información sin esperar, lo que conleva a una cola de procesos.
 
 - **Kernel híbrido**
+
 	Este tipo de kernels representa una combinación de características de los enfoques monolítico y Microkernel. Algunas partes del kernel se ejecutan en espacio de memoria privilegiado y se mantienen juntas como un único programa (similar al kernel monolítico). Otras partes más especializadas y menos críticas se ejecutan como servicios independientes en espacios de memoria protegida para mejorar el rendimiento (similar al microkernel). La mayor desventaja que posee es que no puede cargar módulos dinámicamente. Un ejemplo de este comportamiento puede ser XNU, a diferencia del Microkernel, este tipo de kernel si divide trabajo en no solo el espacio de kernel. Esto permite simplicidad, eficiencia y ciertas modificaciones que no se pueden modificar del distribuidor.
 
 	A diferencia del Microkernel, este tipo de kernel si divide trabajo en no solo el espacio de kernel. Esto permite simplicidad, eficiencia y ciertas modificaciones que no se pueden modificar del distribuidor.
@@ -35,8 +40,10 @@ Existen distintos tipos de Kernel de sistemas operativos. Esto debido a la evolu
 
 	Este tipo de kernel admite frecuencias de reloj de un nanosegundo. Un ejemplo claro de este tipo es KeyKOS, que está orientado a objetos. La utilización de este tipo de kernels se justifica por su capacidad para ejecutar varias instancias del mismo sistema operativo en un sistema. En el caso de KeyKOS, solo ocupa 100KB de memoria y cuenta con aproximadamente 2000 líneas de código en C.
 
-## **User vs Kernel Mode**
 ------------
+
+## **User vs Kernel Mode**
+
 |       | Descripción        | 
 |:-------------:|:---------------: |
 | Accesos | En el modo kernel, un programa tiene acceso directo e ilimitado a todos los recursos del sistema, lo que incluye memoria, dispositivos y otras funciones fundamentales, mientras que en el modo usuario, este acceso se encuentra restringido.|  
