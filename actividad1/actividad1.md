@@ -1,6 +1,6 @@
 ![Static Badge](https://img.shields.io/badge/Actividad_%231-green)
 ![Static Badge](https://img.shields.io/badge/SO1_Secci%C3%B3n_N-2S23-blue)
-![Static Badge](https://img.shields.io/badge/Carnet-201908075-yellow)      ![Static Badge](https://img.shields.io/badge/Estudiante-Juan_José_López_Pérez-yellow)
+![Static Badge](https://img.shields.io/badge/Carnet-201908075-red)      ![Static Badge](https://img.shields.io/badge/Estudiante-Juan_José_López_Pérez-red)
 
 ## **Tipos de Kernel**
 
