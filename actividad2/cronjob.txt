@@ -1,0 +1,11 @@
+crontab -e
+
+#Creamos la variable GITHUB_USER
+GITHUB_USER=02JuanJo
+
+#La sintaxis >*/5< permite obtener todos los multiplos de 5
+*/5 * * * * /home/juanitooo/Escritorio/SO1/so1_actividades_201908075/actividad2/script.sh
+
+#Para revisar si el cronjob fue agreado correctamente, podemos enlistar todos los cronjobs creados por el usuario con el comando:
+
+crontab -l
