@@ -179,7 +179,9 @@ ls -ld
 ```
 [![HDH1glj.md.png](https://iili.io/HDH1glj.md.png)](https://freeimage.host/i/HDH1glj)
 
+
 **Nota:**
+
  ```bash
  #Si se tiene alguna duda con algún comando, se recomienda utilizar:
 man command_name
@@ -188,8 +190,7 @@ command_name --help
  # Y se podrá ver a detalle la documentación del comando
 ```
 
-
-##Reflexión
+###Reflexión
 
 **- ¿Por qué es importante gestionar correctamente los usuarios y permisos en un sistema operativo?**
 
