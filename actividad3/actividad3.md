@@ -190,7 +190,7 @@ command_name --help
  # Y se podrá ver a detalle la documentación del comando
 ```
 
-###Reflexión
+**Reflexión**
 
 **- ¿Por qué es importante gestionar correctamente los usuarios y permisos en un sistema operativo?**
 
