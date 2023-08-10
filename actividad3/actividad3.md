@@ -2,9 +2,10 @@
 ![Static Badge](https://img.shields.io/badge/SO1_Secci%C3%B3n_N-2S23-blue)
 ![Static Badge](https://img.shields.io/badge/Carnet-201908075-red)      ![Static Badge](https://img.shields.io/badge/Estudiante-Juan_José_López_Pérez-red)
 
+
 ## **Gestión de Permisos**
 
-#### Parte 1: Gestión de Usuarios
+### Parte 1: Gestión de Usuarios
 
 **1. Creación de Usuarios**
 - Crea tres usuarios llamados `usuario1`, `usuario2` y `usuario3`.
@@ -40,7 +41,7 @@ sudo deluser username_to_delete
 ```
 [![HDH1ltt.md.png](https://iili.io/HDH1ltt.md.png)](https://freeimage.host/i/HDH1ltt)
 
-#### Parte 2: Gestión de Grupos
+### Parte 2: Gestión de Grupos
 
 **1. Creación de Grupos**
 - Crea dos grupos llamados `grupo1` y `grupo2`.
@@ -78,7 +79,7 @@ cat /etc/group | grep word_to_find
 ```
 [![HDH1XS4.md.png](https://iili.io/HDH1XS4.md.png)](https://freeimage.host/i/HDH1XS4)
 
-#### Parte 3: Gestión de Permisos
+### Parte 3: Gestión de Permisos
 
 **1. Creación de Archivos y Directorios**
 - Como `usuario1`, crea un archivo llamado `archivo1.txt` en su directorio principal y escribe algo en él.
@@ -187,10 +188,13 @@ command_name --help
  # Y se podrá ver a detalle la documentación del comando
 ```
 
-####Reflexión
+##Reflexión
+
 **- ¿Por qué es importante gestionar correctamente los usuarios y permisos en un sistema operativo?**
+
 Es importante mantener una buena gestión para saber proteger los datos y recursos del sistema, en los que cada usuario posee ciertos accesos habilitados para manejar sus archivos y carpetas y de esta forma evitar errores accidentales al no limitar los permisos de ciertos usuarios no administrativos y el control que estos poseen, garantizando su seguridad, privacidad e integridad.
 
 **- ¿Qué otros comandos o técnicas conocen para gestionar permisos en Linux?**
+
 He oído sobre ACL, que es el control de accesos por medio de listas con comandos como getfacl o setfacl, así como de las alternativas comunes como umask o su.
 
