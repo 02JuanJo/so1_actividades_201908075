@@ -35,6 +35,7 @@
 [![HyOMSja.md.png](https://iili.io/HyOMSja.md.png)](https://freeimage.host/i/HyOMSja)
 
 - Para detener el servicio: `sudo systemctl stop script.service`
-- Para reiniciar el servicio: `sudo systemctl restart script.service`
 
 [![HyOMev1.md.png](https://iili.io/HyOMev1.md.png)](https://freeimage.host/i/HyOMev1)
+
+- Para reiniciar el servicio: `sudo systemctl restart script.service`
