@@ -10,6 +10,8 @@
 **1. Archivo .sh**
 - El archivo `script.sh`, contiene una serie de líneas de código para ejecutar de manera infinita un saludo cada 5 segundos. Se debe descargar y colocar en donde el usuario prefiera.
 
+> Nota: Se le debe dar permiso de ejecución con el comando: `chmod +x script.sh`
+
 [![HyOMkyF.md.png](https://iili.io/HyOMkyF.md.png)](https://freeimage.host/i/HyOMkyF)
 
 **2. Archivo .service**
