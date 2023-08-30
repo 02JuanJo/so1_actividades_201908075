@@ -1,0 +1,11 @@
+[Unit]
+Description=Actividad 4 SO1
+After=network.target
+
+[Service]
+ExecStart=/home/juanitooo/Escritorio/SO1/so1_actividades_201908075/actividad4/script.sh
+Restart=always
+User=juanitooo
+
+[Install]
+WantedBy=multi-user.target
